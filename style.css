@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 14%, 91%);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #95bdf1;
+    color: rgb(247, 242, 242);
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.nav-buttons {
+    margin-top: 10px;
+}
+
+.nav-buttons .btn {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #5219bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-buttons .btn:hover {
+    background-color: #2a16e0;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about, .skills, .projects, .contact {
+    text-align: center;
+}
+
+.skill-card {
+    background-color: #ecebf1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+    background-color: rgb(45, 34, 204);
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}ae7
+
+.contact a {
+    color: #160ac5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #7dd0f7;
+    color: rgba(1, 10, 0, 0.904);
+    padding: 20px;
+
